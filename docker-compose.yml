@@ -1,17 +1,5 @@
 version: '3'
 services:
-  # rails:
-  #   container_name: rails
-  #   build: .
-  #   depends_on:
-  #     - db
-  #   volumes:
-  #     - .:/app
-  #   ports:
-  #     - '3000:3000'
-  #   env_file:
-  #     - .env
-  #   command: bundle exec rails server -p 3000 -b '0.0.0.0'
   db:
     image: postgres:latest
     volumes:
